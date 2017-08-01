@@ -89,12 +89,13 @@ div.pics_container {
 
 #title {
 
-  padding: 20px;
+  padding: 10px 50px 15px 50px;
   text-align: center;
   font-family: Arial, sans-serif; 
   color: #FFF;
   font-size: 24px;  
   float: center;
+  margin: 20px;
    
 
 }
@@ -106,10 +107,11 @@ div.pics_container img {
     filter: alpha(opacity=50);  
     width: 100%;
     height: auto; 
+    padding: 5px 50px 100px 50px;
     position: relative; 
-    padding: 20px; 
     text-align: center;
     float: center; 
+    margin: 20px;
       
 }
 
@@ -117,3 +119,4 @@ div.pics_container img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
   
+}
